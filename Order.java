@@ -15,4 +15,9 @@ class Order {
         System.out.println("You've added a chicken sandwich. yay");
     }
 
+    public void addShake() {
+        totalCost += 399.99;
+        items.add("Shake");
+        System.out.print("You've added an underpriced milkshake! :)");
+    }
 }
