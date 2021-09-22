@@ -9,4 +9,10 @@ class Order {
         System.out.println("Here are your items: " + items);
     }
 
+    public void addChickenSandwich() {
+        totalCost += 5;
+        items.add("Chicken Sandwich");
+        System.out.println("You've added a chicken sandwich. yay");
+    }
+
 }
